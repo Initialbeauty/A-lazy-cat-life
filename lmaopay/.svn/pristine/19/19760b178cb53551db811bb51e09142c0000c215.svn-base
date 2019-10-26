@@ -1,0 +1,58 @@
+<template>
+  <!--支付完成-->
+  <main>
+    <center>
+      <div class="pay">
+        <img src="https://lmaopay.oss-cn-qingdao.aliyuncs.com/res/yTwoLevelList/30.png" ><br/>
+        <em>支付完成</em><br/>
+        <span>恭喜你成为猫王卡用户，一卡在手吃遍全球</span>
+      </div>
+      <hr/>
+
+      <div class="rights_one">
+        <em>猫王卡权益一</em>
+        <span>甄选商品免费领取</span>
+        <ul>
+          <li>
+            <img src="https://lmaopay.oss-cn-qingdao.aliyuncs.com/res/yTwoLevelList/90.jpg" alt="">
+            <span>鱼线玻璃钢超硬海钓竿套装海钓竿套装</span>
+            <span>￥299</span>
+            <button>免费领取</button>
+          </li>
+        </ul>
+      </div>
+
+    </center>
+
+  </main>
+</template>
+
+<script>
+
+</script>
+
+<style>
+  @import "../../assets/style/common.css";
+  main{overflow-y: auto; -webkit-overflow-scrolling: touch; background-color: white;}
+  center .pay {margin-top: .3rem;}
+  center .pay img {width: 2rem; }
+  center .pay em {font-size: .36rem; font-weight: bold; color: #000000;}
+  center .pay span {font-size: .24rem; font-weight: 500; color: #000000; display: inline-block; margin-top: .1rem;}
+  center hr {border: 0; height: .2rem; background-color: #F2F2F2; margin-top: .2rem;}
+
+  center .rights_one {text-align: left; width: 6.9rem; margin-top: .3rem;}
+  center .rights_one em {font-size: .3rem; font-weight: bold; color: #323333;}
+  center .rights_one span {display: inline-block; margin-left: .3rem; font-size: .24rem; font-weight: bold; color: #999899;}
+  center .rights_one ul {margin-top: .3rem;}
+  center .rights_one ul li {width: 3.36rem; height: 4.8rem; background-color: #F2F2F2; margin-top: .2rem; display: inline-block; margin-left: .04rem;}
+  center .rights_one ul li img {width: 3.36rem; height: 3.36rem;}
+  center .rights_one ul li span:nth-of-type(1) {font-size: .24rem; font-weight: 500; color: #333333; display: inline-block; margin-top: .05rem;width: 3.08rem; margin-left: 0.1rem;}
+  center .rights_one ul li span:nth-of-type(2) {font-size: .3rem; font-weight: bold; color: #EA5504; display: inline-block; margin-top: .1rem; margin-left: 0.1rem;}
+  center .rights_one ul li button {width: 1.5rem; height: .36rem; border-radius: .16rem; color: white; margin-right: .1rem; background-color: #EA5504; border: 0; line-height: .36rem; margin-left: .7rem;}
+
+
+
+
+
+
+</style>
